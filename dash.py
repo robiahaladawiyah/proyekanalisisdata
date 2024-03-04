@@ -10,8 +10,8 @@ st.write("Dicoding ID : adawiyah463")
 st.write("Bangkit Mail : M179D4KX3348@bangkit.academy")
 
 # Load data
-day_df = pd.read_csv("/day.csv")
-hour_df = pd.read_csv("/hour.csv")
+day_df = pd.read_csv("day.csv")
+hour_df = pd.read_csv("hour.csv")
 
 # Merge dataframes
 bike_df = hour_df.merge(day_df, on='dteday', how='inner', suffixes=('_hour', '_day'))
