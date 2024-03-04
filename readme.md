@@ -4,7 +4,7 @@ This dashboard provides insights into bike rental data, answering specific quest
 
 ## Setup Environment
 
-1. Create a conda environment:
+1. Create python environment:
 
     ```bash
     conda create --name main-ds python=3.9
